@@ -1,4 +1,4 @@
-## Welcome to GitHub Pages
+## coursera web dev
 
 You can use the [editor on GitHub](https://github.com/abhiram2504/coursera-web-dev/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
 
