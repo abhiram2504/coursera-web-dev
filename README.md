@@ -1,1 +1,1 @@
-# coursera-web-dev
+# coursera_JHU-webdev
