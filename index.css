@@ -1,86 +1,50 @@
-* {
-  box-sizing: border-box;
+#header-nav {
+  background-color: #999999;
+  border-radius: 0;
+  border: 0;
+}
+#header-nav .navbar-brand a{
+  color: #ccc;
+  font-weight: bold;
+}
+.navbar-brand a:hover, .navbar-brand a:focus {
+  text-decoration: none;
+}
+.navbar-brand p { /* Kosher cert */
+  color: #000;
+  text-transform: uppercase;
+  font-size: .7em;
+  margin-top: 15px;
+}
+.navbar-brand p span { /* Star-K */
+  vertical-align: middle;
 }
 
-h1 {
-	font-size: 27px;
-	font-family: Georgia serif;
-	text-align: center;
-	color: rgb(0, 0, 0);
-	margin-bottom: 30px;
+#nav-list{
+  background: white;
+  border: 1px solid #e7e7e7;
+  margin-top: 0;
+  margin-bottom: 0;
 }
 
-p {
-	padding: 15px 5px 0px 5px;
-	font-family: Georgia sans-serif;
-	font-size: 16px;
-	position: relative;
+#nav-list hr{
+  margin-top: 0px;
+  margin-bottom: 0px;
+  color: #e7e7e7;
 }
 
-.section { 
-	background-color: rgb(150, 150, 150);
-   	border: 2px solid black;
-   	margin-top: 20px; 
-   	margin-right: 20px; 
-   	padding: 3px;
-   	text-align: justify;
-   	position: relative;
- }
-
-span {
-	font-size: 20px;
-	width: 150px;
-	border: 1px solid black;
-	font-weight: bold;
-	text-align: center;
-	float: right; top :0; right: 0; margin: 0;
-	position: absolute;
-}
-#nr1 {
-	background-color: rgb(250, 150, 150);
-	color: rgb(0, 0, 0);
-}
-#nr2 {
-	background-color: rgb(250, 0, 0);
-	color: rgb(250, 250, 250);
-}
-#nr3 {
-	background-color: rgb(200, 200, 100);
-	color: rgb(0, 0, 0);
-}
+#header-nav span.icon-bar{
+  background: #e7e7e7;
 }
 
-.row {
-	width: 100%;
+#header-nav .navbar-toggle:hover span.icon-bar, #header-nav .navbar-toggle:focus span.icon-bar{
+  background: #888;
 }
 
-/* Desktop PC view */
-
-@media (min-width: 992px) {
- 
-  .col-lg-4 {
-    width: 33.33%;
-    float: left;
-	}
+.menu-header{
+  margin-bottom: 40px;
 }
-
-/* Tablet PC view */
-@media (min-width: 768px) and (max-width: 991px) {
- 
-  .col-md-6 {
-    width: 50%;
-    float: left;
-  }
-  .col-md-12 {
-    width: 100%;
-    float: left;
-  }
-}
-/* Cell phone view */
-@media (max-width: 767px)  {
-  
-  .col-sx-12 {
-  	float: left;
-    width: 100%;
-  }
+.menu-content{
+  background: #999999;
+  margin-bottom: 20px;
 }
